@@ -6,8 +6,7 @@ import xgboost as xgb
 import numpy as np
 
 
-file = r'D:\CreditScoring.csv'
-df = pd.read_csv(file)
+df = pd.read_csv('data.csv')
 
 # data cleaning
 df.columns = df.columns.str.lower()
