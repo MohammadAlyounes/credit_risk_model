@@ -6,7 +6,7 @@ import xgboost as xgb
 import numpy as np
 
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('CreditScoring.csv')
 
 # data cleaning
 df.columns = df.columns.str.lower()
